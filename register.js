@@ -19,7 +19,7 @@
    
   const email = document.getElementById('email').value;
   const submit = document.getElementById('submit');
-  submit.addEventListener("click", function(event)){
+  submit.addEventListener("click", function(event){
     event.preventDefault()
     alert(5)
-  }
+  })
